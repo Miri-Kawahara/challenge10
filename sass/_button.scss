@@ -1,0 +1,27 @@
+$white: #fff;
+$deep_pink: #D9728E;
+$bright_pink: #DF8BA2;
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: $white;
+  }
+  
+    .submit {
+        background-color: $deep_pink;
+        border-color: $deep_pink;
+    }
+    
+    .submit:hover {
+        background-color: $bright_pink;
+        border-color: $bright_pink;
+    }
+
+@media (min-width: 600px) {
+.submit-button-wrapper {
+    text-align: right;
+  }
+}
+
